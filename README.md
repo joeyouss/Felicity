@@ -1,5 +1,5 @@
 
-# Optimist
+# Okay.
 ## The only thing positive here is the environment!
 The idea of this website is to bring positive and impactful stories from past and present which may impact the people positively.
 No place for sad happenings, only a place for positive and happy news.
