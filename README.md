@@ -14,6 +14,9 @@ If you believe you can, you can.
 ### Soon we will add a contribution doc for guidelines and how to contribute
 
 Resource to learn web-devlopment- W3Schools
+
+# Homepage
+![alt_text](https://github.com/joeyouss/Felicity/blob/main/TinDog-Start-master/images/homepage.png "Felicity Homepage")
 # Tech stack used
 The teck stack currently used in Html, CSS, Bootstrap but as we go further, Javascript, JQuery and NodeJs will be involved.
 
