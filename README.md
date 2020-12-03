@@ -7,7 +7,7 @@ Yes, the world isn't perfect but we try to make it a bit better- one article at 
 If you believe you can, you can.
 
 ![alt text](https://github.com/joeyouss/Felicity/blob/main/TinDog-Start-master/images/Felicity.png "Felicity")
-
+> This is just a new project started on 4/12/2020 targeted to be completed by 1/01/2021. Fellas reading this, happy new year!
 # Contributing
 
 ### The repo is open for contributions and great for beginner-level developers starting out to learn web-development and open-source.
