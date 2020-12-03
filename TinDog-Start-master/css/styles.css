@@ -1,0 +1,71 @@
+h1 {
+    size: 4rem;
+    color: white;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+p {
+    color: grey;
+}
+
+#title {
+    background-color: #028a68;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    color: aliceblue;
+    font-size: 2.0rem;
+    text-decoration-color: white;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-weight: lighter;
+    font-size: 1.2rem;
+    font-family: 'Ubuntu';
+}
+
+.container-fluid {
+    padding: 4% 15%;
+}
+
+
+/* download buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0%
+}
+
+
+/*image section */
+
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+}
+
+
+/* feature section */
+
+#features {
+    padding: 7% 15%;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
