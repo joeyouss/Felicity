@@ -28,6 +28,8 @@
     <div class="box"></div>
     <div class="box2"></div>
 
+
+
     <section id="title">
         <div class="container-fluid">
             <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -45,10 +47,10 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item"><a class="nav-link" href="">Contact</a></li>
-                        <li class="nav-item"><a class="nav-link" href="">Read</a></li>
-                        <li class="nav-item"><a class="nav-link" href="">Write</a></li>
-                        <li class="nav-item"><a class="nav-link" href="">All blogs</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#features">Use-cases</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#main-idea">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contribute">Contribute</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#pricing">Contact</a></li>
                     </ul>
             </nav>
 
@@ -118,13 +120,15 @@
 
     <!-- Press -->
 
-    <section id="press ">
+    <section id="press">
+        <div class="box3"></div>
+        <div class="box4"></div>
         <!-- carousel begins -->
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="1400">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="1400" style="padding: 5% 7%;">
             <div class="carousel-inner">
                 <h4 style="padding-top: 2%;">Trending now</h4>
                 <!-- first slide -->
-                <div class="carousel-item active" style="background-color:white;">
+                <div class="carousel-item active">
                     <h3 class="trending-now " style="padding-top: 3%;"> 5 BOOKS TO UPLIFT YOUR MOOD </h3>
                     <br>
                     <em>You will surely dive into them</em>
@@ -132,7 +136,7 @@
                     <img class="testimonial-image " src="images/carousel2.jpg " width="30%" height="30% " alt="lady-profile ">
                 </div>
                 <!-- second slide -->
-                <div class="carousel-item" style="background-color: white;">
+                <div class="carousel-item">
                     <h3 class="trending-now " style="padding-top: 3%;">MEDITATION FOR THE SOUL</h3>
                     <br>
                     <em>best meditation practices</em>
@@ -140,7 +144,7 @@
                     <img class="testimonial-image " src="images/carousel2.jpg " width="30%" height="30% " alt="lady-profile ">
                 </div>
                 <!-- third slide -->
-                <div class="carousel-item" style="background-color:white;">
+                <div class="carousel-item">
                     <h3 class="trending-now " style="padding-top: 3%;">HOW CAN AI HEAL YOU</h3>
                     <br>
                     <em>AI as a companion? why not!</em>
@@ -159,72 +163,101 @@
                 <!--this makes the website inclusive-->
                 <span class="sr-only">Previous</span>
             </a>
+
             <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
         </div>
-        <!-- carousel ends -->
 
-        <img src="images/techcrunch.png " alt="tc-logo ">
-        <img src="images/tnw.png " alt="tnw-logo ">
-        <img src="images/bizinsider.png " alt="biz-insider-logo ">
-        <img src="images/mashable.png " alt="mashable-logo ">
+
+        <!-- carousel ends -->
 
     </section>
 
 
-    <!-- Pricing -->
+    <!-- contibution -->
 
-    <section id="pricing ">
+    <section id="pricing">
+        <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+            <h2 class="display-4">How to contribute</h2>
+            <p class="lead" style="padding: 2% 15%; color: black;">We believe in the power of open source and how it can change the world. Open source is the future, and open source is the revolution. Apart from this website, we host a project to provide every beginnner with resources to learn open source
+                from. These are some ways you can contribute to our project and start with open-source</p>
+        </div>
+    </section>
+    <section id="contribute">
+        <div>
+            <div class="card-deck mb-3 text-center">
+                <div class="card mb-3 box-shadow">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">Contribute to Felicity</h4>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title pricing-card-title">We love new ideas and new contributors </h5>
+                        <p>Found a bug? Want to add more features? Would like to document it? </p>
+                        <p>We look forward to see developers like you (even if you are a beginner).Come join us!</p>
+                        <button type="button" class="btn btn-lg btn-dark btn-block btn-outline-dark" style="color: aliceblue;">Github repository</button>
+                    </div>
+                </div>
+                <div class="card mb-3 box-shadow">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">Learn open source</h4>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title pricing-card-title">Team Felicity believes in teaching and growing together.</h5>
+                        <p>We just made a project dedicated to teaching you open source and get started!. </p>
+                        <p>We got all the resouces to help you get started any open source project.</p>
 
-        <h2>A Plan for Every Dog's Needs</h2>
-        <p>Simple and affordable price plans for your and your dog.</p>
+                        <button type="button" class="btn btn-lg btn-block btn-primary">Start learning</button>
+                    </div>
+                </div>
+                <div class="card mb-3 box-shadow">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">More projects</h4>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title pricing-card-title">Explore our other projects</h5>
+                        <p>Our other projects revolve around, data structures, chrome extensions and much more. They are also open source.</p>
+                        <p> Our projects are focused on providing free, detailed educational material to people
+                        </p>
+                        <button type="button" class="btn btn-lg btn-block btn-primary">Show me more</button>
+                    </div>
+                </div>
+                <div class="card mb-3 box-shadow">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">Drop a message</h4>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title pricing-card-title">Thank contributors</h5>
+                        <p>We love hearing from you!. Tell us what you liked or tell us what you would like to make better and we would try to make it better</p>
+                        <p> Like our project? Drop us a message!. And remember, you are doing great!</p>
+                        <button type="button" class="btn btn-lg btn-block btn-primary">Drop a text</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-
-        <h3>Chihuahua</h3>
-        <h2>Free</h2>
-        <p>5 Matches Per Day</p>
-        <p>10 Messages Per Day</p>
-        <p>Unlimited App Usage</p>
-        <button type="button ">Sign Up</button>
-
-
-        <h3>Labrador</h3>
-        <h2>$49 / mo</h2>
-        <p>Unlimited Matches</p>
-        <p>Unlimited Messages</p>
-        <p>Unlimited App Usage</p>
-        <button type="button ">Sign Up</button>
-
-
-        <h3>Mastiff</h3>
-        <h2>$99 / mo</h2>
-        <p>Pirority Listing</p>
-        <p>Unlimited Matches</p>
-        <p>Unlimited Messages</p>
-        <p>Unlimited App Usage</p>
-        <button type="button ">Sign Up</button>
-
+        <div class="boxbottom3"></div>
     </section>
 
 
     <!-- Call to Action -->
+    <!-- 
+    <section id="cta">
 
-    <section id="cta ">
-
-        <h3>Find the True Love of Your Dog's Life Today.</h3>
+        <h3>App in progress</h3>
         <button type="button ">Download</button>
         <button type="button ">Download</button>
 
-    </section>
+    </section> -->
 
 
     <!-- Footer -->
 
     <footer id="footer ">
 
-        <p>© Copyright 2018 TinDog</p>
+        <p style="text-align: center;">© Copyright 2018 Felicity</p>
+        <h3 style="text-align: center; font-family:'Franklin Gothic Medium'; padding: 2% 7%; color:grey;"><em>We hope to see you again</em></h3>
 
     </footer>
 

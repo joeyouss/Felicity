@@ -14,6 +14,30 @@
     position: absolute;
 }
 
+.box3:after {
+    content: ' ';
+    border-top: 30vh solid #bdffde;
+    border-right: 100vw solid transparent;
+    width: 0;
+    position: absolute;
+}
+
+.box4:after {
+    content: ' ';
+    border-top: 100vh solid #bdffde;
+    border-right: 30vw solid transparent;
+    width: 0;
+    position: absolute;
+}
+
+.boxbottom3 {
+    content: ' ';
+    border-bottom: 45vh solid #bdccde;
+    border-left: 100vw solid transparent;
+    width: 0;
+    position: absolute;
+}
+
 h1 {
     size: 4rem;
     color: rgb(8, 30, 92);
