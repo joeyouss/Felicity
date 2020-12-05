@@ -8,6 +8,10 @@ If you believe you can, you can.
 
 ![alt text](https://github.com/joeyouss/Felicity/blob/main/TinDog-Start-master/images/Felicity.png "Felicity")
 > This is just a new project started on 4/12/2020 targeted to be completed by 1/01/2021. Fellas reading this, happy new year!
+
+### Check it out 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/63cfc3a7-6214-4f50-8548-6c5a56888fa8/deploy-status)](https://app.netlify.com/sites/felicity/deploys)
+
 # Contributing
 
 ### The repo is open for contributions and great for beginner-level developers starting out to learn web-development and open-source.
