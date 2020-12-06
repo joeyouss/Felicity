@@ -36,6 +36,8 @@
     border-left: 100vw solid transparent;
     width: 0;
     position: absolute;
+    /* z index to make the footer go on top of the box bottom */
+    z-index: -1;
 }
 
 h1 {
@@ -152,4 +154,15 @@ p {
 
 .carousel-control-next-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='0000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+
+/* footer-section */
+
+.footer-text {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+    padding: 2% 7%;
+    color: grey;
+    z-index: 1;
 }
