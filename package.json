@@ -1,0 +1,24 @@
+{
+  "name": "felicity",
+  "version": "1.0.0",
+  "description": "The idea of this website is to bring positive and impactful stories from past and present which may impact the people positively. No place for sad happenings, only a place to get motivated, read happiness and deliver the best. Yes, the world isn't perfect but we try to make it a bit better- one article at a time. If you believe you can, you can.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joeyouss/Felicity.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joeyouss/Felicity/issues"
+  },
+  "homepage": "https://github.com/joeyouss/Felicity#readme",
+  "dependencies": {
+    "eslint": "^7.15.0",
+    "husky": "^4.3.4",
+    "prettier": "^2.2.1"
+  }
+}
