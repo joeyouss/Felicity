@@ -1,0 +1,168 @@
+.box:after {
+    content: ' ';
+    border-top: 100vh solid #9ad3f5;
+    border-right: 30vw solid transparent;
+    width: 0;
+    position: absolute;
+}
+
+.box2:after {
+    content: ' ';
+    border-top: 30vh solid #9ad3f5;
+    border-right: 100vw solid transparent;
+    width: 0;
+    position: absolute;
+}
+
+.box3:after {
+    content: ' ';
+    border-top: 30vh solid #bdffde;
+    border-right: 100vw solid transparent;
+    width: 0;
+    position: absolute;
+}
+
+.box4:after {
+    content: ' ';
+    border-top: 100vh solid #bdffde;
+    border-right: 30vw solid transparent;
+    width: 0;
+    position: absolute;
+}
+
+.boxbottom3 {
+    content: ' ';
+    border-bottom: 45vh solid #bdccde;
+    border-left: 100vw solid transparent;
+    width: 0;
+    position: absolute;
+    /* z index to make the footer go on top of the box bottom */
+    z-index: -1;
+}
+
+h1 {
+    size: 4rem;
+    color: rgb(8, 30, 92);
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+p {
+    color: grey;
+}
+
+#title {
+    background-color: white;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(8, 30, 92);
+    font-size: 2.0rem;
+    text-decoration-color: rgb(8, 30, 92);
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-weight: lighter;
+    font-size: 1.2rem;
+    font-family: 'Ubuntu';
+}
+
+.container-fluid {
+    padding: 4% 15%;
+}
+
+
+/* download buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0%
+}
+
+
+/*image section */
+
+.title-image {
+    width: 120%;
+}
+
+
+/* feature section */
+
+#features {
+    padding: 7% 15%;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+
+/* main idea section */
+
+#main-idea {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #f1b7d3;
+    color: black;
+}
+
+.main-idea-para {
+    font-size: 1.2rem;
+    color: rgb(112, 112, 112);
+}
+
+.image1 {
+    border-radius: 50%;
+}
+
+
+/* carousel styling */
+
+.carousel-inner {
+    text-align: center;
+    color: black;
+}
+
+.testimonial-image {}
+
+
+/* dont worry, it is just the code to change prev and next icon color to black */
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='0000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='0000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+
+/* footer-section */
+
+.footer-text {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+    padding: 2% 7%;
+    color: grey;
+    z-index: 1;
+}
