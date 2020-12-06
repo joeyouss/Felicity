@@ -6,7 +6,7 @@ No place for sad happenings, only a place to get motivated, read happiness and d
 Yes, the world isn't perfect but we try to make it a bit better- one article at a time.
 If you believe you can, you can.
 
-![alt text](https://github.com/joeyouss/Felicity/blob/main/Felicity/images/Felicity.png "Felicity")
+![alt text](https://github.com/joeyouss/Felicity/blob/main/Felicity_master/images/Felicity.png "Felicity")
 > This is just a new project started on 4/12/2020 targeted to be completed by 1/01/2021. Fellas reading this, happy new year!
 
 ### Check it out 
@@ -20,7 +20,7 @@ If you believe you can, you can.
 Resource to learn web-devlopment- W3Schools
 
 # Homepage
-![alt_text](https://github.com/joeyouss/Felicity/blob/main/Felicity/images/homepage.png "Felicity Homepage")
+![alt_text](https://github.com/joeyouss/Felicity/blob/main/Felicity_master/images/homepage.png "Felicity Homepage")
 # Tech stack used
 The teck stack currently used in Html, CSS, Bootstrap but as we go further, Javascript, JQuery and NodeJs will be involved.
 
