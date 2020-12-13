@@ -17,3 +17,5 @@ The teck stack currently used in Html, CSS, Bootstrap but as we go further, Java
 
 # Progress
 We will be progressively updating the ideas covered and developed. For further ideas, check the issues tab which open as the project proceeds.
+
+
