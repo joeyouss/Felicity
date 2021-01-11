@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="" />
+</head>
+
+<body>
+    <style>
+        body {
+            width: 30%;
+            min-width: 300px;
+            height: 80vh;
+            margin: 20vh auto 0;
+            background: linear-gradient(to left, #ff512f, #dd2476);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            color: #282828;
+        }
+        
+        h1 {
+            color: white;
+        }
+        
+        .task {
+            position: relative;
+            overflow: hidden;
+            cursor: pointer;
+            perspective: 800px;
+            transform-style: preserve-3d;
+        }
+        
+        .abstract,
+        .details {
+            width: 100%;
+            padding: 15px 30px;
+            position: relative;
+            background: white;
+        }
+        
+        .task:hover .abstract,
+        .task:hover .details {
+            background: #fafafa;
+        }
+        
+        .abstract {
+            transition: 0.3s ease all;
+        }
+        
+        .details {
+            max-height: 0;
+            padding: 0;
+            overflow: hidden;
+            visibility: hidden;
+            transform: rotateX(-180deg);
+            transform-origin: top center;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            transition: 0.3s transform ease;
+        }
+        
+        .details:before {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 10%;
+            right: 10%;
+            height: 1px;
+            background: grey;
+        }
+        
+        .task:hover .details {
+            max-height: none;
+            overflow: visible;
+            visibility: visible;
+            transform: rotateX(0deg);
+        }
+        
+        .details__inner {
+            padding: 15px 30px;
+        }
+    </style>
+    <div class="wrap">
+        <h1>GAME-1</h1>
+        <div class="task">
+            <div class="abstract">
+                <h3><a href="guessNumber.html">Guess the number</a></h3>
+                <p>Head over to play or visit github to check code</p>
+            </div>
+            <div class="details">
+                <div class="details__inner">
+                    <h3>Details</h3>
+                    <p>
+                        A fun game to guess number created by using <br /> Math.random module in JS. Open source contributor?-> <br /> the game is a perfect example of DOM manipulation for beginners
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrap">
+        <h1>GAME-2</h1>
+        <div class="task">
+            <div class="abstract">
+                <h3>Pig game</h3>
+                <p>Head over to play or visit github to check code</p>
+            </div>
+            <div class="details">
+                <div class="details__inner">
+                    <h3>Details</h3>
+                    <p>
+                        An interesting DOM manipulation game perfect for any new beginners.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+
+    <script src="" async defer></script>
+</body>
+
+</html>
