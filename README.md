@@ -14,8 +14,6 @@ If you believe you can, you can.
 
 > The project was started at 4/12/2020. Happy new year!
 
-### Check it out 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/63cfc3a7-6214-4f50-8548-6c5a56888fa8/deploy-status)](https://app.netlify.com/sites/felicity/deploys)
 
 # Contributing
 
