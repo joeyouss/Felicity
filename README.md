@@ -32,7 +32,7 @@ Resource to learn web-development- W3Schools
 # AI-BOT
 The bot was built using javascript. The idea was to use a web speech API to make it more interactive. However, it is not a
 conversational bbut conventional chatbot and used to make people understand javascript in depth. If you have any doubts, kindly go through the code as the comments have been added explaining each line of code and you'll be good.
-![alt_text](https://github.com/joeyouss/Felicity/blob/main/Felicity_master/images/aib.png "AI Bot")
+![AI Bot](./chatbot/bot.jpg)
 
 # Books
 Currently we are accepting contributions for developing the books homepage wherein you can add the books which might help people overcome grief and sadness and give them hope. The homepage currently is again created with javascript counter. Have a look!
